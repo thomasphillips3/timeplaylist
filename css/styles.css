@@ -1508,3 +1508,14 @@ h3 {
     font-size: 1.15em;
     letter-spacing: 0.025em;
 }
+#playMain {
+	background-color: #333333;
+	border-radius: 5px 5px 5px 5px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 1;
+}
+
+#songList {
+
+}
