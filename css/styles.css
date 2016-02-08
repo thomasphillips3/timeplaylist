@@ -1,6 +1,6 @@
-/* ============================================================================================== 
+/* ==============================================================================================
 This copyright notice must be kept untouched in the stylesheet at all times.
-The original version of this stylesheet and the associated (x)html 
+The original version of this stylesheet and the associated (x)html
 is available at http://www.script-tutorials.com/html5-audio-player-with-playlist/
 Copyright (c) Script Tutorials. All rights reserved.
 This stylesheet and the associated (x)html may be modified in any way to fit your requirements.
@@ -1253,7 +1253,7 @@ This stylesheet and the associated (x)html may be modified in any way to fit you
 			}
 
 	}
-	
+
 	#audioplayer{
 	width: 480px;
 	height: 60px;
@@ -1263,7 +1263,7 @@ border: solid;
 
 /* Player */
 	#pButton{
-		height:60px; 
+		height:60px;
 		width: 60px;
 		border: none;
 		background-size: 50% 50%;
@@ -1271,8 +1271,8 @@ border: solid;
 		background-position: center;
 		float:left;
 		outline:none;
-	}    
-	    
+	}
+
 	#timeline{
 		width: 400px;
 		height: 20px;
@@ -1281,7 +1281,7 @@ border: solid;
 		border-radius: 15px;
 		background: rgba(0,0,0,.3);
 	}
-	
+
 	#playhead{
 		width: 18px;
 		height: 18px;
@@ -1421,7 +1421,7 @@ border: solid;
     background-color: #333333;
     border-radius: 5px 5px 5px 5px;
     list-style-type: none;
-    margin: -10px 0 0 2px;
+		margin: 0 auto;
     padding-bottom: 10px;
     padding-top: 15px;
     position: relative;
@@ -1507,4 +1507,15 @@ h2 {
 h3 {
     font-size: 1.15em;
     letter-spacing: 0.025em;
+}
+#playMain {
+	background-color: #333333;
+	border-radius: 5px 5px 5px 5px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 1;
+}
+
+#songList {
+
 }

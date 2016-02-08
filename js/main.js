@@ -4,7 +4,7 @@
  *
  * Licensed under the MIT license.
  * http://www.opensource.org/licenses/mit-license.php
- * 
+ *
  * Copyright 2012, Script Tutorials
  * http://www.script-tutorials.com/
  */
@@ -93,17 +93,20 @@ jQuery(document).ready(function() {
         playAudio();
     });
 
-    // show playlist
+    // Hide/ Show playlist
     $('.pl').click(function (e) {
-        e.preventDefault();
-
+      e.preventDefault();
+      if ($('.playlist').is(":visible")){
+        $('.playlist').fadeOut(300);
+      } else{
         $('.playlist').fadeIn(300);
+      }
     });
 
     // playlist elements - click
     $('.playlist li').click(function () {
-        stopAudio();
-        initAudio($(this));
+      stopAudio();
+      initAudio($(this));
     });
 
     // initialization - first element in playlist
