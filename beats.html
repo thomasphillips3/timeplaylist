@@ -23,6 +23,20 @@
 
   <body class="index">
     <div id="page-wrapper">
+      <script src="https://connect.soundcloud.com/sdk/sdk-3.0.0.js"></script>
+      <script>
+        SC.initialize({
+          client_id: '1ccc81f4a0cc76fd11de2a4ee45be460',
+          redirect_uri: 'callback.html'
+        });
+        // initiate auth popup
+        SC.connect().then(function() {
+          return SC.get('/me');
+        }).then(function(me) {
+          alert('Hello, ' + me.username);
+        });
+      </script>
+
       <!--Header-->
       <header id="header" class="alt">
         <nav id="nav">
