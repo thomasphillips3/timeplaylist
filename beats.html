@@ -1,41 +1,20 @@
-<!DOCTYPE html>
-<!--
-	Time
-	Aspire
-	Learning to live
--->
-<html lang="en">
-    <head>
-    <meta charset="utf-8" />
-    <meta name="author" content="TomP3 Player" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-
+<html>
+<html>
+  <head>
     <title>Time</title>
-
-    <!-- add styles and scripts -->
     <link href="css/styles.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
     <script type="text/javascript" src="js/jquery-ui-1.8.21.custom.min.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
+    <script src="https://connect.soundcloud.com/sdk/sdk-3.0.0.js"></script>
+    <script src="./js/beats.js">
 
-    <!--[if lte IE 8]><script src="js/ie/html5shiv.js"></script><![endif]-->
+    </script>
   </head>
 
   <body class="index">
     <div id="page-wrapper">
-      <script src="https://connect.soundcloud.com/sdk/sdk-3.0.0.js"></script>
-      <!-- <script>
-        SC.initialize({
-          client_id: '1ccc81f4a0cc76fd11de2a4ee45be460',
-          redirect_uri: 'http://thomasphillips3.github.io/timeplaylist/callback.html'
-        });
-        // initiate auth popup
-        SC.connect().then(function() {
-          return SC.get('/me');
-        }).then(function(me) {
-          alert('Hello, ' + me.username);
-        });
-      </script> -->
+      <ol id="track-list"></ol>
+      
       <!--Header-->
       <header id="header" class="alt">
         <nav id="nav">
@@ -55,7 +34,7 @@
           </header>
 
           <footer>
-            <iframe width="100%" height="600px" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/134447557%3Fsecret_token%3Ds-LWfbe&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false&amp;visual=false"></iframe>
+            <!-- <iframe width="100%" height="600px" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/134447557%3Fsecret_token%3Ds-LWfbe&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false&amp;visual=false"></iframe> -->
           </footer>
         </div>
       </section>
