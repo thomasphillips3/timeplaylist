@@ -2,7 +2,7 @@
   console.log("this iife tho");
   SC.initialize({
     client_id: '1ccc81f4a0cc76fd11de2a4ee45be460',
-    redirect_uri: 'http://thomasphillips3.github.io/timeplaylist/callback.html'
+    redirect_uri: 'https://thomasphillips3.github.io/timeplaylist/callback.html'
   });
 
   // initiate auth popup
@@ -11,4 +11,16 @@
   }).then(function(me) {
     alert('Hello, ' + me.username);
   });
+
+  // var userId = 5333180;
+  // SC.get("/tracks", {
+  //   user_id: userId,
+  //   limit: 100
+  // }, function(tracks) {
+  //   var tmp = '';
+  //   for (var i = 0; i < tracks.length; i++) {
+  //     tmp = '<a href="' + tracks[i].permalink_url + '">' + tracks[i].title + ' - ' + tracks[i].duration + '</a>';
+  //     $("<li/>").html(tmp).appendTo("#track-list");
+  //   }
+  // });
 }())
