@@ -9,7 +9,8 @@
   SC.connect().then(function() {
     return SC.get('/me');
   }).then(function(me) {
-    alert('Hello, ' + me.username);
+    // alert('Hello, ' + me.username);
+    window.setTimeout(window.opener.SC.connectCallback, 1);
   });
 
   // var userId = 5333180;
