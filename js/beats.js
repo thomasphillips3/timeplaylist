@@ -11,6 +11,7 @@
   }).then(function(me) {
     // alert('Hello, ' + me.username);
     window.setTimeout(window.opener.SC.connectCallback, 1);
+    console.log("in the 'then' function");
   });
 
   // var userId = 5333180;
