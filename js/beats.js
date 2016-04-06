@@ -2,7 +2,7 @@
   console.log("this iife tho");
   SC.initialize({
     client_id: '1ccc81f4a0cc76fd11de2a4ee45be460',
-    redirect_uri: '//timeplaylist/callback.html'
+    redirect_uri: '../callback.html'
   });
 
   // initiate auth popup
