@@ -7,6 +7,7 @@
 
   // initiate auth popup
   SC.connect().then(function() {
+    console.log("connected");
     return SC.get('/me');
   }).then(function(me) {
     // alert('Hello, ' + me.username);
