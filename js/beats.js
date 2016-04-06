@@ -9,9 +9,8 @@
   SC.connect().then(function() {
     return SC.get('/me');
   }).then(function(me) {
+    var userId = 5333180;
+    tracks = SC.get("/playlists", {user_id: 5333180})._result;
+    console.log(tracks);
   });
-
-  var userId = 5333180;
-  tracks = SC.get("/playlists", {user_id: 5333180})._result;
-  console.log(tracks);
 }())
