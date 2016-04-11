@@ -1,0 +1,54 @@
+body {
+	color: #6f7577;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.4em;
+	font-weight: 400;
+	font-variant: small-caps;
+	height: 100%;
+	width: 100%;
+}
+
+html {
+	background-color: #313a3d;
+	background-attachment: fixed,						fixed;
+	background-image: url("images/sunset.jpg"), url("../../images/sunset.jpg");
+	background-position: top left,					center center;
+	background-repeat: no-repeat;
+	background-size: auto,						cover;
+	height: 100%;
+	width: 100%;
+}
+.page-wrapper {
+	margin-top: 2em;
+	margin-bottom: 2em;
+	margin-left: 5%;
+	margin-right: 5%;
+	border-radius: 1em;
+}
+header, footer {
+	padding-left: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	text-align: center;
+	color: #313a3d;
+}
+footer {
+
+}
+header p {
+}
+#playlist {
+	display: flex;
+}
+.flexitem {
+	width: 55%;
+	margin: auto;
+}
+iframe {
+	width:100%;
+	opacity: 0.8;
+}
+strong {
+	font-weight: 1000;
+	color: white;
+}
