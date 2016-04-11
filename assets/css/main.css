@@ -36,7 +36,8 @@ header, footer {
 footer {
 
 }
-header p {
+header {
+	padding-top: 0.5em;
 }
 #playlist {
 	display: flex;
